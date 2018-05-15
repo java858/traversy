@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		* {
+			border: 1px solid;
+		}
+
+		.wrapper {
+			width: 800px;
+			height: 500px;
+			display: flex;
+		}
+
+		.main-left {
+			width: 40%;
+			display: flex;
+			flex-direction:row-reverse;
+		}
+
+		.main-right {
+			width: 59%;
+		}
+
+		.main-left-titles {
+			width: 80%;
+		}
+
+		.main-left-colons {
+			width: 10%;
+		}
+
+		.title {
+			width: 100%;
+			text-align: justify;
+		}
+
+		.title:after {
+			content: " ";
+			display: inline-block;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-left">
+			<div class="main-left-colons">
+				<div>：</div><br>
+				<div>：</div><br>
+				<div>：</div><br>
+				<div>：</div><br>
+				<div>：</div><br>
+				<div>：</div><br>
+				<div>：</div><br>
+			</div>
+			<div class="main-left-titles">
+				<div class="title">发行商</div>
+				<div class="title">等级</div>
+				<div class="title">钻石数量</div>
+				<div class="title">灵力</div>
+				<div class="title">经验加成</div>
+				<div class="title">游戏币加成</div>
+				<div class="title">副本金钱加成</div>
+			</div>
+		</div>
+		<div class="main-right">
+			<div>4399小游戏</div><br>
+			<div>黄金会员</div><br>
+			<div>100</div><br>
+			<div>70</div><br>
+			<div>5%</div><br>
+			<div>5%</div><br>
+			<div>20%</div><br>
+		</div>
+	</div>
+</body>
+</html>
